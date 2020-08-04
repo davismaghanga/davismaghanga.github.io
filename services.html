@@ -53,12 +53,12 @@
     </div>
     <!-- header ends-->
 
-    <!--services -->
-    <div class="upper pt-5">
-        <div class="container mx-auto md:flex items-center justify-center ">
-            <div class="px-40">
+     <!--services -->
+     <div class="upper pt-5 ">
+        <div class="container mx-auto md:flex items-center justify-center mt-5 ">
+            <div class="px-32">
                 <h2 class="services-title text-3xl">Services</h2>
-                <ul class="flex flex-col bg-white">
+                <ul class="flex flex-col md:bg-white">
                     <li class="py-4 px-4 hover:bg-blue-300 cursor-pointer border-t-2 hover:border-blue-500">Office, Institutional and Industrial</li>
                     <li class="py-4 px-4 hover:bg-blue-300 cursor-pointer border-t-2 hover:border-blue-500">Gardening</li>
                     <li class="py-4 px-4 hover:bg-blue-300 cursor-pointer border-t-2 hover:border-blue-500">Sanitary Bins</li>
@@ -69,9 +69,9 @@
                     <li class="py-4 px-4 hover:bg-blue-300 cursor-pointer border-t-2 hover:border-blue-500">Others</li>
                 </ul>
             </div>
-            <div class="px-40 mt-10">
+            <div class="px-32 mt-10">
                 <h2 class="services-title text-xl">Office, Institutional and Industrial</h2>
-                <div class="flex flex-col mb-5">
+                <div class="flex flex-col">
                     <div class="py-1">All kinds of floor: Ceramic, PVC, Marble etc</div>
                     <div class="py-1">Carpets</div>
                     <div class="py-1">Maintenance cleaning</div>
@@ -79,11 +79,15 @@
                     <div class="py-1">Dusting and cleaning windows</div>
                     <div class="py-1">Machinery,equipment and furniture dusting</div>
                     <div class="py-1">Disinfecting floors</div>
-                    <hr class="services-divide mt-3 mb-5">
-                    <h2 class="services-title text-xl">Get a free Quote</h2>
-                </div>
+                    <hr class="services-divide mt-8">
 
-                <form action="" method="post">
+                </div>
+            </div>
+        </div>
+        <div class="container md:mx-auto md:flex md:items-center md:justify-end pr-32 pl-16">
+            <div>
+                <h2 class="services-title text-xl mb-6">Get a free Quote</h2>
+                <form action="" method="post" class="w-full">
                     <div>
                         <input type="text" name="full_name" v-model="fullName"  class="border rounded-md py-3 px-3 mb-4 text-black placeholder-black w-full" placeholder="Full Name*">
                     </div>
